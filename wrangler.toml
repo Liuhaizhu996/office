@@ -1,0 +1,14 @@
+name = "office"
+account_id = ''
+type = 'webpack'
+workers_dev = true
+webpack_config = 'webpack.config.js'
+
+[vars]
+_ANNOUNCEMENT = "Office 自助开户已上线 office.haizhuai.art"
+_GET_CODE_LINK = "https://office.haizhuai.art"
+_AAD_CONFIG = "{ \"tenantId\": \"\", \"clientId\": \"\", \"clientSecret\": \"\" }"
+_OFFICE_DOMAINS = "[\"domain1.com\", \"domain2.org\"]"
+_OFFICE_SUBSCRIPTIONS = "[{ \"name\": \"subscription 1\", \"sku\": \"skuid\" }, { \"name\": \"subscription 2\", \"sku\": \"skuid\" }]"
+_USERNAME_BLACKLIST = "[\"admin\", \"gay\"]"
+_GENERATE_CODES_PATH_SECRET = "7cfdb79388c2f6360f02c7e7"
